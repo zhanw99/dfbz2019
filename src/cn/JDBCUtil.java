@@ -19,6 +19,9 @@ public class JDBCUtil {
         }
         return conn;
     }
+
+
+
     public static Map<String,String> getPath() {
         Map map  =new HashMap();
         Properties properties = new Properties();

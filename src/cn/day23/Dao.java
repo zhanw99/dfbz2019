@@ -12,16 +12,16 @@ import java.util.List;
 
 public class Dao {
     public static void main(String[] args) {
-        User u = new User("李四","123456");
+        User u = new User("zhanw","123456");
         //增
-        //ins(u);
+        ins(u);
         //删
         // del(3);
-        List<User> list = sel();
-        for (int i = 0; i < list.size(); i++) {
-            list.get(i).toString();
-            System.out.println(list.get(i).toString());
-        }
+//        List<User> list = sel();
+//        for (int i = 0; i < list.size(); i++) {
+//            list.get(i).toString();
+//            System.out.println(list.get(i).toString());
+//        }
     }
 
     static {
